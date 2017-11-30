@@ -15,5 +15,10 @@ public class AbonentsServiceImpl implements AbonentsService{
         return abonentsRepository.findOne(abonID);
     }
 
+    @Override
+    public Abonents getAbonent(int id) {
+        return abonentsRepository.findOne(id);
+    }
+
 
 }
